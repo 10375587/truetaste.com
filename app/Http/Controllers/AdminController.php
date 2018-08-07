@@ -17,7 +17,7 @@ class AdminController extends Controller
         $data['title'] = 'Admin';
         return view('admin.login', $data);   
     }
-
+/* function for login 	*/
     public function login() 
     {
     	$posted_data = $this->request->all();
